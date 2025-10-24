@@ -25,7 +25,7 @@ const SearchBar = () => {
           onChange={(e) => setQuery(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && searchPackages()}
           placeholder="Search npm packages..."
-          className="border-2 p-4  rounded-4xl w-1/2 text-3xl text-pri"
+          className="  bg-sec    p-4  rounded-4xl w-1/2 text-3xl  "
         />
         <button
           onClick={searchPackages}
